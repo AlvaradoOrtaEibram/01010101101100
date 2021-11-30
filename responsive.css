@@ -1,0 +1,38 @@
+@media (max-width: 700px){
+    body{
+        padding: 0 0;
+    }
+    .logo p{
+        display: none;
+    }
+    .contenedor-btn-menu{
+        display: block;
+    }
+    .nav-enlaces{
+        display: none;
+    }
+    .contenedor-slider{
+        width: 95%;
+    }
+    .articulos-nav{
+        justify-content: center;
+        text-align: center;
+    }
+    
+}
+@media (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+  }
+@media (max-width: 1000px){
+    .container-table{
+        overflow-x: scroll;
+    }
+    .tabla-articulos td{
+        padding: 20px;
+    }
+}
